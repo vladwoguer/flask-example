@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+
+
+{% block container %}
+<h2>User</h2>
+
+<table class="table table-dark" style="width:100%">
+  <caption>User data</caption>
+  <tr>
+    <th scope="col">First Name</th>
+    <th scope="col">Last Name</th>
+  </tr>
+  <tr>
+    <td scope="col">{{firstname}}</td>
+    <td scope="col">{{lastname}}</td>
+  </tr>
+</table>
+
+
+
+{% endblock %}
